@@ -5,3 +5,7 @@ function changeLogout ( element ){
 function removeButton ( element ) {
   element.remove();
 }
+
+function showAlertForLikes (){
+  alert("Ninja was liked!");
+}
