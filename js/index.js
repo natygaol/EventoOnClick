@@ -1,5 +1,9 @@
 function changeLogout ( element ){
-  element.innerText = "Log Out";
+  if(element.innerText == "Login") {
+    element.innerText = "Logout";
+  } else {
+    element.innerText = "Login";
+  }
 }
 
 function removeButton ( element ) {
