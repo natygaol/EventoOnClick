@@ -1,4 +1,9 @@
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .nav {
   background-color: rgb(179, 175, 175);
   padding: 10px;
@@ -11,4 +16,25 @@
 
 .search {
   width: 300px;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.col, .col-2 {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
 }
